@@ -1,0 +1,16 @@
+Q1 — SSE comparison (lower is better):
+  • cosine: SSE = 738.10
+  • euclidean: SSE = 116603.41
+  • jaccard: SSE = 1939.45
+Conclusion: cosine produced the lowest SSE.
+
+Q2 — Accuracy comparison (higher is better):
+  • cosine: accuracy = 0.6260
+  • euclidean: accuracy = 0.6143
+  • jaccard: accuracy = 0.4687
+Conclusion: cosine achieved the highest accuracy.
+
+Q3 — Convergence (iterations / time):
+  • cosine: iterations = 27, time = 1.538 s
+  • euclidean: iterations = 47, time = 2.302 s
+  • jaccard: iterations = 2, time = 1.018 s
